@@ -1,0 +1,358 @@
+[
+  {
+    "id": "lab_20261017_034041_269",
+    "type": "lab_report",
+    "filename": "sample_health_report.pdf",
+    "file_size_kb": 6.0,
+    "timestamp_epoch": 1792190441.269098,
+    "timestamp_str": "2026-10-17 03:40:41",
+    "thumbnail_b64": "",
+    "modality": "Laboratory Blood Panel",
+    "anatomical_region": "Systemic Hematology & Biochemistry",
+    "summary": "Laboratory panel for sample_health_report.pdf: 8 biomarkers evaluated. Risk assessment: Moderate concern.",
+    "patient_sex": "female",
+    "patient_age": 42,
+    "triage_level": "Moderate concern",
+    "triage_reasons": [
+      "HbA1c is 6.1% (5.7–6.4%), consistent with an increased risk for diabetes (prediabetes).",
+      "Hemoglobin (10.2 g/dL) is below reference baseline (12.0 g/dL).",
+      "TSH is elevated (6.8 mIU/L), suggesting subclinical or primary hypothyroidism."
+    ],
+    "model_used": "MediScan Clinical OCR Engine",
+    "user_notes": "Sex: Female, Age: 42",
+    "analysis": {
+      "summary": "Laboratory panel for sample_health_report.pdf: 8 biomarkers evaluated. Risk assessment: Moderate concern.",
+      "executive_summary": "Laboratory panel for sample_health_report.pdf: 8 biomarkers evaluated. Risk assessment: Moderate concern.",
+      "detected_biomarkers": {
+        "hemoglobin": 10.2,
+        "hematocrit": 32.0,
+        "mcv": 72.0,
+        "mch": 24.0,
+        "glucose": 118.0,
+        "hba1c": 6.1,
+        "tsh": 6.8,
+        "t3": 2.4
+      },
+      "analyses": {
+        "hemoglobin": {
+          "name": "Hemoglobin",
+          "category": "CBC",
+          "value": 10.2,
+          "status": "Low",
+          "unit": "g/dL",
+          "reference_low": 12.0,
+          "reference_high": 15.5,
+          "message": "10.2 g/dL vs reference (12.0 – 15.5 g/dL)",
+          "explanation": {
+            "what_is": "The oxygen-carrying protein inside red blood cells.",
+            "high_meaning": "May indicate dehydration, chronic smoking, or living at high altitudes.",
+            "low_meaning": "Suggests anemia, blood loss, or iron/vitamin deficiency. Common symptoms include fatigue and pallor."
+          }
+        },
+        "wbc": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "platelets": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "rbc": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "hematocrit": {
+          "name": "Hematocrit (HCT)",
+          "category": "CBC",
+          "value": 32.0,
+          "status": "Low",
+          "unit": "%",
+          "reference_low": 36.0,
+          "reference_high": 44.0,
+          "message": "32.0 % vs reference (36.0 – 44.0 %)",
+          "explanation": {
+            "what_is": "The percentage of total blood volume made up of red blood cells.",
+            "high_meaning": "Indicates concentrated blood, often from dehydration.",
+            "low_meaning": "Reflects a reduced red cell mass, consistent with anemia."
+          }
+        },
+        "mcv": {
+          "name": "MCV",
+          "category": "CBC",
+          "value": 72.0,
+          "status": "Low",
+          "unit": "fL",
+          "reference_low": 80.0,
+          "reference_high": 100.0,
+          "message": "72.0 fL vs reference (80.0 – 100.0 fL)",
+          "explanation": {
+            "what_is": "The average physical size (volume) of red blood cells.",
+            "high_meaning": "Macrocytosis, frequently linked to Vitamin B12 or folate deficiency.",
+            "low_meaning": "Microcytosis, characteristic of iron-deficiency anemia or thalassemia trait."
+          }
+        },
+        "mch": {
+          "name": "MCH",
+          "category": "CBC",
+          "value": 24.0,
+          "status": "Low",
+          "unit": "pg",
+          "reference_low": 27.0,
+          "reference_high": 33.0,
+          "message": "24.0 pg vs reference (27.0 – 33.0 pg)",
+          "explanation": {
+            "what_is": "The average amount of hemoglobin inside each red blood cell.",
+            "high_meaning": "Seen alongside macrocytic anemias.",
+            "low_meaning": "Seen in hypochromic microcytic anemias."
+          }
+        },
+        "mchc": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "glucose": {
+          "name": "Fasting Blood Glucose",
+          "category": "Metabolic",
+          "value": 118.0,
+          "status": "High",
+          "unit": "mg/dL",
+          "reference_low": 70.0,
+          "reference_high": 99.0,
+          "message": "118.0 mg/dL vs reference (70.0 – 99.0 mg/dL)",
+          "explanation": {
+            "what_is": "The primary sugar circulating in blood, providing energy to cells.",
+            "high_meaning": "Elevated fasting glucose (≥100 mg/dL pre-diabetes, ≥126 mg/dL diabetes concern) warrants glycemic review.",
+            "low_meaning": "Hypoglycemia (<70 mg/dL), causing shakiness, dizziness, or sweating."
+          }
+        },
+        "hba1c": {
+          "name": "HbA1c",
+          "category": "Metabolic",
+          "value": 6.1,
+          "status": "High",
+          "unit": "%",
+          "reference_low": 4.0,
+          "reference_high": 5.6,
+          "message": "6.1 % vs reference (4.0 – 5.6 %)",
+          "explanation": {
+            "what_is": "Glycated hemoglobin reflecting your average blood sugar over the preceding 2–3 months.",
+            "high_meaning": "Values ≥5.7% indicate prediabetes; ≥6.5% indicate diabetes. Useful for long-term glycemic monitoring.",
+            "low_meaning": "May reflect frequent hypoglycemia or altered red blood cell turnover."
+          }
+        },
+        "cholesterol": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "hdl": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "ldl": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "triglycerides": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "creatinine": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "urea_bun": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "calcium": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "potassium": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "sodium": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "tsh": {
+          "name": "TSH (Thyroid Stimulating Hormone)",
+          "category": "Endocrine",
+          "value": 6.8,
+          "status": "High",
+          "unit": "mIU/L",
+          "reference_low": 0.4,
+          "reference_high": 4.0,
+          "message": "6.8 mIU/L vs reference (0.4 – 4.0 mIU/L)",
+          "explanation": {
+            "what_is": "Hormone secreted by the pituitary gland regulating thyroid metabolism.",
+            "high_meaning": "Primary indicator of underactive thyroid (hypothyroidism).",
+            "low_meaning": "Primary indicator of overactive thyroid (hyperthyroidism)."
+          }
+        },
+        "t3": {
+          "name": "Total T3",
+          "category": "Endocrine",
+          "value": 2.4,
+          "status": "Normal",
+          "unit": "nmol/L",
+          "reference_low": 1.2,
+          "reference_high": 3.1,
+          "message": "2.4 nmol/L vs reference (1.2 – 3.1 nmol/L)",
+          "explanation": {
+            "what_is": "Triiodothyronine, the active thyroid hormone governing cellular metabolic rate.",
+            "high_meaning": "Associated with hyperthyroidism or thyroid toxicosis.",
+            "low_meaning": "Associated with hypothyroidism or severe non-thyroidal systemic illness."
+          }
+        },
+        "tt4": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "fti": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "t4u": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "insulin": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "bmi": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        },
+        "blood_pressure": {
+          "status": "Not detected",
+          "message": "Biomarker not detected in report."
+        }
+      },
+      "triage_assessment": "Moderate concern",
+      "clinical_flags": [
+        "HbA1c is 6.1% (5.7–6.4%), consistent with an increased risk for diabetes (prediabetes).",
+        "Hemoglobin (10.2 g/dL) is below reference baseline (12.0 g/dL).",
+        "TSH is elevated (6.8 mIU/L), suggesting subclinical or primary hypothyroidism."
+      ],
+      "health_guidance": {
+        "what_to_do": [
+          "Prioritize high-fiber complex carbohydrates (oats, legumes, chia seeds, broccoli) to slow glucose absorption.",
+          "Incorporate a 15-20 minute gentle walk immediately following major meals to improve muscle insulin sensitivity.",
+          "Establish a consistent sleep schedule (7-8 hours nightly), as fragmented sleep acutely raises cortisol and fasting blood glucose.",
+          "Pair non-heme iron foods (spinach, lentils, fortified grains) with Vitamin C (lemon, bell peppers, tomatoes) to multiply absorption up to 3x.",
+          "Discuss serum ferritin, total iron binding capacity (TIBC), and vitamin B12/folate testing with your doctor.",
+          "Allow adequate pacing during workouts and listen to your body if lightheadedness or fatigue occurs.",
+          "Track energy levels, cold/heat sensitivity, heart rate, and hair/skin changes in a daily health log for your endocrinologist.",
+          "Ensure balanced dietary micronutrient intake including dietary selenium (Brazil nuts), zinc, and iodized salt."
+        ],
+        "what_to_avoid": [
+          "Avoid sugary beverages, sweetened sodas, fruit juices, and refined morning pastries that cause severe postprandial glucose spikes.",
+          "Avoid late-night carbohydrate-heavy snacking within 3 hours of sleep.",
+          "Avoid drinking black tea, green tea, or coffee within 60 minutes of iron-rich meals (tannins and polyphenols inhibit iron uptake).",
+          "Avoid taking calcium supplements or high-calcium dairy at the exact same meal as your iron sources.",
+          "Avoid strenuous high-intensity interval exhaustion training until your red blood cell indices stabilize.",
+          "Avoid self-prescribing high-dose kelp, bladderwrack, or unregulated thyroid glandular supplements without laboratory monitoring.",
+          "Avoid taking biotin (Vitamin B7) within 48–72 hours prior to future thyroid blood draws, as biotin causes severe lab assay interference."
+        ],
+        "what_to_ignore": [
+          "Ignore 'instant cure' diabetes herbs, extreme vinegar flushes, or zero-carb crash diets that risk electrolyte disturbances.",
+          "Do not panic over a single elevated fasting glucose; stress, poor sleep, or an incomplete fast can temporarily elevate readings.",
+          "Ignore internet advice advocating megadose iron pills without a confirmed doctor's prescription, as iron overload causes organ toxicity.",
+          "Ignore sensationalized blogs claiming thyroid dysfunction can be cured entirely by eliminating all gluten or cruciferous vegetables."
+        ]
+      },
+      "raw_text": "Sample Health Screening Report  |  Page 1\n Sample Health Screening Report\n Diabetes  Thyroid  Anemia\nPatient: Sample Patient\nAge / Sex: 42 / F\nReport date: 15 Oct 2026\n Illustrative data only. Not a real patient and not medical advice.\n1. Diabetes Panel\nTest\nResult\nReference Range\nFlag\nFasting blood glucose\n118 mg/dL\n70-99\nHigh\nPost-meal glucose (2 hr)\n168 mg/dL\n< 140\nHigh\nHbA1c\n6.1 %\n< 5.7\nHigh\nInterpretation: Values fall in the prediabetes range (HbA1c 5.7-6.4%, fasting glucose 100-125 mg/dL).\nDiabetes is generally diagnosed at HbA1c ≥ 6.5% or fasting glucose ≥ 126 mg/dL, confirmed on repeat testing.\n2. Thyroid Panel\nTest\nResult\nReference Range\nFlag\nTSH\n6.8 mIU/L\n0.4-4.0\nHigh\nFree T4\n0.7 ng/dL\n0.8-1.8\nLow\nFree T3\n2.4 pg/mL\n2.3-4.2\nNormal\nAnti-TPO antibodies\n85 IU/mL\n< 35\nHigh\nInterpretation: High TSH with low Free T4 suggests primary hypothyroidism. Positive anti-TPO points toward\nan autoimmune cause such as Hashimoto's thyroiditis.\n3. Anemia Panel\nTest\nResult\nReference Range\nFlag\nHemoglobin\n10.2 g/dL\n12.0-15.5\nLow\nHematocrit\n32 %\n36-46\nLow\nRBC count\n3.8 million/µL\n4.0-5.2\nLow\nMCV\n72 fL\n80-100\nLow\nMCH\n24 pg\n27-33\nLow\nSerum ferritin\n8 ng/mL\n15-150\nLow\nSerum iron\n35 µg/dL\n60-170\nLow\nTIBC\n450 µg/dL\n240-450\nHigh-normal\nVitamin B12\n410 pg/mL\n200-900\nNormal\nInterpretation: Low hemoglobin with small, pale red cells (low MCV/MCH) and low ferritin indicates\niron-deficiency anemia. Normal B12 makes a B12-deficiency cause unlikely.\n\nSample Health Screening Report  |  Page 2\n4. Overall Summary\nCondition\nFinding\nSuggested Follow-up\nGlucose metabolism\nPrediabetes\nLifestyle review, repeat HbA1c in 3 months\nThyroid\nProbable Hashimoto's\nhypothyroidism\nDoctor review, possible thyroid medication, recheck TSH\nin 6-8 weeks\nBlood\nIron-deficiency anemia\nIdentify the cause (diet, blood loss, absorption), iron\ntherapy as advised\n5. Notes on How These Connect\n Hypothyroidism and anemia often occur together, and untreated hypothyroidism can itself contribute to\nanemia.\n Autoimmune thyro"
+    }
+  },
+  {
+    "id": "lab_20261017_033858_612",
+    "type": "lab_report",
+    "filename": "CBC_Metabolic_Test_Report.pdf",
+    "file_size_kb": 142.5,
+    "timestamp_epoch": 1792190338.612411,
+    "timestamp_str": "2026-10-17 03:38:58",
+    "thumbnail_b64": "",
+    "modality": "Laboratory Blood Panel",
+    "anatomical_region": "Systemic Hematology & Biochemistry",
+    "summary": "Your laboratory report indicates slightly low hemoglobin and slightly elevated blood sugar, with total cholesterol near the upper boundary. Routine physician follow-up is advised.",
+    "patient_sex": "female",
+    "patient_age": 42,
+    "triage_level": "Moderate review recommended",
+    "triage_reasons": [
+      "Mildly decreased hemoglobin (11.2 g/dL)",
+      "Borderline elevated fasting glucose (105.0 mg/dL)"
+    ],
+    "model_used": "MediScan Clinical OCR Engine",
+    "user_notes": "Sex: Female, Age: 42",
+    "analysis": {
+      "summary": "Your laboratory report indicates slightly low hemoglobin and slightly elevated blood sugar, with total cholesterol near the upper boundary. Routine physician follow-up is advised.",
+      "executive_summary": "Your laboratory report indicates slightly low hemoglobin and slightly elevated blood sugar, with total cholesterol near the upper boundary. Routine physician follow-up is advised.",
+      "detected_biomarkers": {
+        "hemoglobin": 11.2,
+        "glucose": 105.0,
+        "cholesterol": 210.0,
+        "wbc": 6.8
+      },
+      "analyses": {
+        "hemoglobin": {
+          "name": "Hemoglobin",
+          "value": 11.2,
+          "unit": "g/dL",
+          "reference_low": 12.0,
+          "reference_high": 15.5,
+          "status": "Low",
+          "category": "CBC"
+        },
+        "glucose": {
+          "name": "Fasting Glucose",
+          "value": 105.0,
+          "unit": "mg/dL",
+          "reference_low": 70.0,
+          "reference_high": 99.0,
+          "status": "High",
+          "category": "Metabolic"
+        },
+        "cholesterol": {
+          "name": "Total Cholesterol",
+          "value": 210.0,
+          "unit": "mg/dL",
+          "reference_low": 125.0,
+          "reference_high": 200.0,
+          "status": "High",
+          "category": "Lipids"
+        },
+        "wbc": {
+          "name": "White Blood Cells",
+          "value": 6.8,
+          "unit": "x10^3/uL",
+          "reference_low": 4.5,
+          "reference_high": 11.0,
+          "status": "Normal",
+          "category": "CBC"
+        }
+      },
+      "triage_assessment": "Moderate review recommended",
+      "clinical_flags": [
+        "Mildly decreased hemoglobin (11.2 g/dL)",
+        "Borderline elevated fasting glucose (105.0 mg/dL)"
+      ],
+      "health_guidance": {
+        "what_to_do": [
+          "Consume iron-rich foods like spinach and lean poultry",
+          "Engage in 30 minutes of brisk daily walking"
+        ],
+        "what_to_avoid": [
+          "Avoid refined sugars and sugary beverages",
+          "Do not take heavy iron supplements without physician consultation"
+        ],
+        "what_to_ignore": [
+          "Ignore extreme detox cleanses promising overnight blood sugar reset"
+        ]
+      },
+      "raw_text": "Patient: Jane Doe, Age: 42, Sex: Female. Hemoglobin 11.2, Glucose 105..."
+    }
+  }
+]
